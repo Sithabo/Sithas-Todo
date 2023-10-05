@@ -28,3 +28,7 @@ input, textarea {
 .body {
   margin-top: 4vw;
 }
+
+.cover-page{
+  left: -100%;
+}
