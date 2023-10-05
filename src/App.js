@@ -4,8 +4,11 @@ import Todo from './components/todo';
 import { useDispatch } from 'react-redux';
 import { addTodo } from './reducers/todoSlice';
 import Cover from './components/cover';
+import { inject } from '@vercel/analytics';
+
 
 function App() {
+  inject();
   const [name, setName] = useState('');
   const [note, setNote] = useState('');
   const dispatch = useDispatch();
