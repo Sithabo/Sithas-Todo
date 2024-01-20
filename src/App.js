@@ -31,6 +31,9 @@ function App() {
       <div className='body'>
           <Cover />
           <h1 className='text-center font-bold text-7xl mb-6'>TODO LIST</h1>
+
+          <img src='https://drive.google.com/uc?id=https://drive.google.com/uc?id=' alt='berserk img'/>
+
           <form onSubmit={handleSubmit} className='flex justify-center items-center flex-col'>
             <input style={{backgroundColor: '#008b8ba8'}} required type='text' value={name} placeholder='Enter Todo' onChange={handleChange} className='border-2 h-12 text-sm p-4 mb-2 rounded-md text-[aliceblue]' />
             <textarea style={{backgroundColor: '#008b8ba8'}} rows='5' cols='40' value={note} placeholder='Enter Notes' onChange={handleNote} className='border-2 h-20 text-sm p-4 mb-2 rounded-md text-[aliceblue]'/>
